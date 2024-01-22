@@ -1,0 +1,19 @@
+{
+  "name": "keven/red-by-sfr",
+  "description": "Client for RED account",
+  "licence": "MIT",
+  "authors": [
+    { "name": "Keven"}
+  ],
+  "require": {
+    "php": ">=7.4",
+    "symfony/http-client": "^6.4",
+    "symfony/dom-crawler": "^6.4",
+    "symfony/css-selector": "^6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Keven\\RedBySfr\\": "src/"
+    }
+  }
+}
